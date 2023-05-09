@@ -1,0 +1,22 @@
+{
+  "name": "hardhat_deom",
+  "version": "1.0.0",
+  "description": "erc 721 and hardhat tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "chai": "^4.3.7",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "dotenv": "^16.0.3"
+  }
+}
